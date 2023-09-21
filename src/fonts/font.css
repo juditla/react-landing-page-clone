@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'DMSerifDisplay';
+  src: local('DMSerifDisplay'),
+    url('./fonts/DMSerifDisplay-Regular.ttf') format('ttf');
+}
