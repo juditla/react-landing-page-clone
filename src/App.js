@@ -130,49 +130,55 @@ export default function App() {
           </a>
         </div>
         <div className={styles.footerRight}>
-          <ul>
-            <li>
-              <a href="/#">Parents</a>
-            </li>
-            <li>
-              <a href="/#">Sitters</a>
-            </li>
-            <li>
-              <a href="/#">Trust & Safety</a>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <a href="/#">FAQ</a>
-            </li>
-            <li>
-              <a href="/#">Careers</a>
-            </li>
-            <li>
-              <a href="/#">Blog</a>
-            </li>
-            <li>
-              <a href="/#">Contact</a>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <a href="/#">Instagram</a>
-            </li>
-            <li>
-              <a href="/#">Facebook</a>
-            </li>
-            <li>
-              <a href="/#">Twitter</a>
-            </li>
-            <li>
-              <a href="/#">LinkedIn</a>
-            </li>
-          </ul>
-          <a href="/#">Terms of use</a>
-          <span>●</span>
-          <a href="/#">Privacy Policy</a>
-          <span>© 2023 With Otter Inc.</span>
+          <div className={styles.footerRightUpperPart}>
+            <ul>
+              <li>
+                <a href="/#">Parents</a>
+              </li>
+              <li>
+                <a href="/#">Sitters</a>
+              </li>
+              <li>
+                <a href="/#">Trust & Safety</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="/#">FAQ</a>
+              </li>
+              <li>
+                <a href="/#">Careers</a>
+              </li>
+              <li>
+                <a href="/#">Blog</a>
+              </li>
+              <li>
+                <a href="/#">Contact</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="/#">Instagram</a>
+              </li>
+              <li>
+                <a href="/#">Facebook</a>
+              </li>
+              <li>
+                <a href="/#">Twitter</a>
+              </li>
+              <li>
+                <a href="/#">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+          <div className={styles.footerRightLowerPart}>
+            <div>
+              <a href="/#">Terms of use</a>
+              <span> ● </span>
+              <a href="/#">Privacy Policy</a>
+            </div>
+            <span>© 2023 With Otter Inc.</span>
+          </div>
         </div>
       </footer>
     </>

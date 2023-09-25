@@ -173,3 +173,25 @@ ul {
   background-color: white;
   border-radius: 2em;
 }
+
+.footerRightUpperPart {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 0px 30px;
+  line-height: 40px;
+}
+
+.footerRightLowerPart {
+  padding: 40px 30px;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
